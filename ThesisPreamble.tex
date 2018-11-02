@@ -1,0 +1,95 @@
+\documentclass[12pt]{report}
+
+\usepackage{amsmath, amssymb, mathrsfs, graphicx, amsthm}
+\usepackage[chapter]{algorithm}
+\usepackage{algpseudocode}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+%\usepackage{natbib}
+%\algnotext{EndFor}
+\addtolength{\textwidth}{100pt}
+\addtolength{\oddsidemargin}{-50pt}
+\addtolength{\evensidemargin}{-50pt}
+%\linespread{1.2}
+
+%\theorembodyfont{\rm}
+\newtheorem{defn}{Definition}[section]
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemma}[thm]{Lemma} %lemmas will be numbered using same counter as theorems
+
+
+%\newenvironment{mydefn}{\begin{defn} \begin{upshape}}{\end{upshape} \end{defn}}
+%\newenvironment{proof}
+%       {\begin{flushleft} \begin{description}
+%              \item \textit{\textbf{Proof:}}}
+%        {\hfill\rule{2.1mm}{2.1mm}
+%              \end{description}\end{flushleft}}
+
+\def\pd{{\partial}}
+\def\d{{\mbox{d}}}
+
+\def\grad {{\nabla}}
+\def\al{{\alpha}}
+\def\be{{\beta}}
+\def\ga{{\gamma}}
+\def\eps{{\epsilon}}
+\def\muv{{\overrightarrow{\mu}}}
+
+\newcommand{\Abf}{\mathbf{A}}
+\def\bfe{{\mathbf{e}}}
+\newcommand{\Fbf}{\mathbf{F}}
+\newcommand{\fbf}{\mathbf{f}}
+\newcommand{\hbf}{\mathbf{h}}
+\newcommand{\bfh}{\mathbf{h}}
+\newcommand{\bfi}{\mathbf{h}}
+\newcommand{\ibf}{\mathbf{h}}
+\newcommand{\nbf}{\mathbf{n}}
+\newcommand{\bfn}{\mathbf{n}}
+\newcommand{\Pbf}{\mathbf{P}}
+\def\bfp{{\mathbf{p}}}
+\newcommand{\pbf}{\mathbf{p}}
+\def\tbf{{\mathbf{t}}}
+\newcommand{\Ubf}{\mathbf{U}}
+\def\bfu{{\mathbf{u}}}
+\newcommand{\Xbf}{\mathbf{X}}
+\newcommand{\xbf}{\mathbf{x}}
+\newcommand{\bfx}{\mathbf{x}}
+\def\bfx{{\mathbf{x}}}
+\newcommand{\Ybf}{\mathbf{Y}}
+\newcommand{\ybf}{\mathbf{y}}
+\def\bfy{{\mathbf{y}}}
+
+\def\bfmu{{\mathbf{\mu}}}
+
+\newcommand{\Ccal}{\mathcal{C}}
+\newcommand{\Fcal}{\mathcal{F}}
+\newcommand{\Hcal}{\mathcal{H}}
+\newcommand{\Ical}{\mathcal{I}}
+\def\Lie{{\mathcal{L}}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Dcal}{\mathcal{D}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\Ocal}{\mathcal{O}}
+\newcommand{\Rcal}{\mathcal{R}}
+\newcommand{\Ucal}{\mathcal{U}}
+\newcommand{\Xcal}{\mathcal{X}}
+
+\newcommand{\Abb}{\mathbb{A}}
+\newcommand{\Cbb}{\mathbb{C}}
+\newcommand{\Fbb}{\mathbb{F}}
+\newcommand{\Ibb}{\mathbb{I}}
+\newcommand{\Nbb}{\mathbb{N}}
+\newcommand{\Rbb}{\mathbb{R}}
+\def\R{{\mathbb R}}
+\newcommand{\Vbb}{\mathbb{V}}
+\newcommand{\Xbb}{\mathbb{X}}
+\newcommand{\Zbb}{\mathbb{Z}}
+
+
+\newcommand{\MAP}{\operatorname{\textsc{map}}}
+\newcommand{\range}{\operatorname{range}}
+\renewcommand{\span}{\operatorname{span}}
+\newcommand{\argmax}{\arg\!\max}
+\newcommand{\argmin}{\arg\!\min}

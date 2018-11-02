@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Hyperbolic PDEs and the wave equation}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Spectral Methods for Solving Hyperbolic PDEs}{3}{chapter.3}
+\contentsline {chapter}{\numberline {4}Reduced Basis Methods for Model Order Reduction}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5}Other Methods?}{5}{chapter.5}
+\contentsline {chapter}{\numberline {6}Vector valued PDEs}{6}{chapter.6}
+\contentsline {chapter}{\numberline {7}Model Order Reduction for Vector-valued PDEs}{7}{chapter.7}
+\contentsline {chapter}{\numberline {8}2-Tensor valued PDEs}{8}{chapter.8}
+\contentsline {chapter}{\numberline {9}Model Order Reduction for 2-Tensor valued PDEs}{9}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{10}{chapter.10}

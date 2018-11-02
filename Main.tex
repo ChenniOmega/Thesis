@@ -1,0 +1,103 @@
+\input{ThesisPreamble}
+\begin{document}
+
+\begin{titlepage}
+\begin{flushleft}
+\hrule
+\vspace{1 cm}
+{\huge{\bf{Model Order Reduction Techniques for Hyperbolic Partial Differential Equations}}}
+
+
+\vspace*{2cm}\vspace{3 cm}
+{\large Chaitanya K. Shettigara}
+
+\vspace{0.5 cm}{\today}
+\end{flushleft}
+\end{titlepage}
+
+\newpage \pagenumbering{roman}
+\tableofcontents
+
+\newpage \pagenumbering{arabic}
+
+\chapter{Introduction}
+\begin{itemize}
+\item Partial differential equations describe lots of natural phenomena. Can be expensive to solve, yet sometimes this is necessary to determine outcomes for a parameter space
+\item for example, determining the likelihood function for a Bayesian parameter estimation problem (brief description of what this is)
+\item Model Order Reduction seeks to reduce the computational expense
+\item Reduced basis methods are one type of MOR
+\item Literature mostly focusses on elliptic problems
+\item Here we'll focus on hyperbolic problems
+\item First scalar- scalar wave equation eg radiation patterns
+\item Then vector- eg global wind patterns
+\item Finally tensor- gravitational waves
+\item Summarise results
+\end{itemize}
+
+\chapter{Hyperbolic PDEs and the wave equation}
+\begin{itemize}
+\item classifying PDEs
+\item properties of the wave equation in up to 3 dimensions
+\item exact solutions in one and 3 dimensions
+\end{itemize}
+
+\chapter{Spectral Methods for Solving Hyperbolic PDEs}
+\begin{itemize}
+\item spectral methods
+\item using Chebyshev polynomials and Spherical Harmonics
+\item collocation
+\item stability, accuracy and efficiency results for spectral methods for hyperbolic equations
+\item illustrative examples of 1D and 3D wave equation (3D using Spherical Harmonics)
+\end{itemize}
+
+\chapter{Reduced Basis Methods for Model Order Reduction}
+\begin{itemize}
+\item RB methods, theory, accuracy results
+\item applied to examples above
+\item results about accuracy, stability and efficiency
+\item how to predict best parameters to perform high fidelity solution in order to get accurate RB solutons
+\end{itemize}
+
+\chapter{Other Methods?}
+\begin{itemize}
+\item other MOR methods, I don't know what they are
+\end{itemize}
+
+\chapter{Vector valued PDEs}
+\begin{itemize}
+\item Hyperbolic PDEs with vector-valued solutions (2 or 3 dimensional). Maybe something aerodynamics related- global wind patterns?
+\item using spin-weighted spherical harmonics
+\end{itemize}
+
+\chapter{Model Order Reduction for Vector-valued PDEs}
+\begin{itemize}
+\item repeat the RB and other MOR work for vector valued pdes where high fidelity solution is performed using spectral methods with spin weighted spherical harmonics.
+\item accuracy, stability and efficiency results.
+\end{itemize}
+
+\chapter{2-Tensor valued PDEs}
+\begin{itemize}
+\item numerical relativity with 2-tensor output (metric tensor)
+\item spin 2 weighted spherical harmonics
+\item results from GW catalogues
+\end{itemize}
+
+\chapter{Model Order Reduction for 2-Tensor valued PDEs}
+\begin{itemize}
+\item repeat RB and MOR work again for NR results
+\item using GW catalogues
+\end{itemize}
+
+\chapter{Conclusion}
+\begin{itemize}
+\item summarise results
+\item suggest where results could be used.
+\end{itemize}
+
+%\appendix
+
+
+%\bibliographystyle{abbrv}
+%\bibliography{research.bib}
+
+\end{document} 
